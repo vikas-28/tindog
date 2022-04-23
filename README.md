@@ -1,2 +1,2 @@
 # tindog
-landing page of a imaginary
+landing page of a imaginary website
