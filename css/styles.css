@@ -1,0 +1,177 @@
+body{
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+    font-size: .9rem;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+
+/* navbar */
+
+.navbar{
+    padding-bottom: 3.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+/* download btn */
+.download-btn{
+    margin: 5% 4% 5% 0;
+}
+
+/* title image */
+.dog-iphone{
+    position: relative;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin: 0 20%;
+    right: 5%;
+    
+}
+
+/* features section */
+
+#features{
+    /* padding: 3% 0; */
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.features-section{
+    text-align: center;
+}
+
+.features-col{
+    padding: 5%;
+    
+}
+
+.features-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+.feature-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.23rem;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* testimonials section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonials-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#pricing{
+    background-color: #fff;
+    padding: 2rem 0;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+.actual-price-color{
+    color: #ef8172;
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container{
+    padding: 8% 15% 6%;
+}
+
+#footer{
+    text-align: center;
+}
+.footer-section{
+    margin: 5% auto;
+}
+.footer-brand{
+    padding: 0 .5rem 1.5rem;
+}
+/* media-query */
+
+@media (max-width:1000px ){
+    .dog-iphone{
+        position: static;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #features{
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
